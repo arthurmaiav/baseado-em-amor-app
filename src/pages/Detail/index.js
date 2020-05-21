@@ -16,7 +16,7 @@ export default function Detail() {
 
     const cases = route.params.cases;
     const message = `Olá , estou entrando em contato pois gostaria de ajudar no caso ${cases.title}`;
-    const whatsapp = 5551980411440
+    const whatsapp = 555197492100
 
     function navigateBack() {
         navigation.goBack();

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Text, View } from 'react-native';
+import { Button, Text, View, TouchableOpacity } from 'react-native';
 import Modal from 'react-native-modal';
 
 import styles from './styles';
@@ -36,7 +36,12 @@ export default class ModalTester extends Component {
                             <Text style={styles.sectionDescription}>123456-8</Text>
                         </View>
 
-                        <Button title="Fechar" onPress={this.toggleModal} />
+                        <View style={styles.actions}>
+                            <TouchableOpacity style={styles.action} onPress={this.toggleModal}>
+                                <Text style={styles.actionText}>Fechar</Text>
+                            </TouchableOpacity>
+                        </View>
+
                     </View>
                 </Modal>
             </View >

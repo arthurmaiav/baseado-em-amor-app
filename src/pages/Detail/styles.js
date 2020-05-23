@@ -29,7 +29,7 @@ export default StyleSheet.create({
         fontSize: 14,
         color: '#324c22',
         fontWeight: 'bold',
-        marginTop:5,
+        marginTop: 5,
     },
 
     casesValue: {
@@ -37,7 +37,7 @@ export default StyleSheet.create({
         fontSize: 15,
         color: '#555e4f',
         marginBottom: 8,
- 
+
     },
 
     contactBox: {
@@ -79,5 +79,6 @@ export default StyleSheet.create({
         color: '#FFF',
         fontSize: 15,
         fontWeight: 'bold',
-    }
+    },
+
 });

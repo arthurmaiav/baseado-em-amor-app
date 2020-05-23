@@ -15,8 +15,8 @@ export default function Detail() {
     const route = useRoute();
 
     const cases = route.params.cases;
-    const message = `Olá , estou entrando em contato pois gostaria de ajudar no caso ${cases.title}`;
-    const whatsapp = 555197492100
+    const message = `Olá, estou entrando em contato pois gostaria de contribuir no caso ${cases.title}`;
+    const whatsapp = 555197492100;
 
     function navigateBack() {
         navigation.goBack();
@@ -77,7 +77,7 @@ export default function Detail() {
                 <View style={styles.contactBox}>
                     <Text style={styles.sectionTitle}>Contato</Text>
 
-                    <Text style={styles.sectionDescription}>Entre em contato:</Text>
+                    <Text style={styles.sectionDescription}>Entre em contato por E-mail ou pelo WhatsApp!</Text>
 
                     <View style={styles.actions}>
                         <TouchableOpacity style={styles.action} onPress={sendWhatsApp}>
@@ -93,11 +93,11 @@ export default function Detail() {
                 {cases.donationUrl !== '' &&
                     <View style={styles.contactBox}>
                         <Text style={styles.sectionTitle}>Doar</Text>
-                        <Text style={styles.sectionDescription}>Entre em contato:</Text>
+                        <Text style={styles.sectionDescription}>Para doações abaixo de 25 reais transferir diretamente para a conta ou entrar em contato.</Text>
 
                         < View style={styles.actions}>
                             <TouchableOpacity style={styles.action} onPress={handleClick}>
-                                <Text style={styles.actionText}>Doar</Text>
+                                <Text style={styles.actionText}>Vakinha</Text>
                             </TouchableOpacity>
 
                             <TouchableOpacity style={styles.action}>

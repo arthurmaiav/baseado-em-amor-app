@@ -1,11 +1,6 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-    actionText: {
-        color: '#FFF',
-        fontSize: 15,
-        fontWeight: 'bold'
-    },
 
     modalBox: {
         padding: 24,
@@ -31,4 +26,26 @@ export default StyleSheet.create({
         color: '#617256',
         margin: 8
     },
+
+    action: {
+        backgroundColor: '#324c22',
+        borderRadius: 8,
+        height: 50,
+        width: '48%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
+    actions: {
+        marginTop: 18,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
+    actionText: {
+        color: '#FFF',
+        fontSize: 15,
+        fontWeight: 'bold'
+    },
+
 });

@@ -55,8 +55,7 @@ export default function Cases() {
             </View>
 
             <Text style={styles.title}>Olá, seja muito bem-vindo(a)!</Text>
-            <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia.</Text>
-
+            <Text style={styles.description}>Abaixo estão os casos que você pode ajudar:</Text>
 
             <FlatList
                 style={styles.caseList}
@@ -70,7 +69,7 @@ export default function Cases() {
                         <Text style={styles.casesProperty}>CASO:</Text>
                         <Text style={styles.casesValue}>{cases.title}</Text>
 
-                        {cases.value !== '' &&
+                        {cases.value !== null &&
                             <View>
                                 <Text style={styles.casesProperty}>Valor:</Text>
                                 <Text style={styles.casesValue}>{Intl.NumberFormat('pt-BR',

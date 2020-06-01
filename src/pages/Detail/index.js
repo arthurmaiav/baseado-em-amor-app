@@ -33,7 +33,7 @@ export default function Detail() {
     function sendMail() {
         MailComposer.composeAsync({
             subject: `Ajuda no caso: ${cases.title}`,
-            recipients: ['baseadoemamor@gmail.com'],
+            recipients: ['baseadoemamoresteio@gmail.com'],
             body: message,
         })
     }
@@ -93,11 +93,11 @@ export default function Detail() {
                 {cases.donationUrl !== '' &&
                     <View style={styles.contactBox}>
                         <Text style={styles.sectionTitle}>Doar</Text>
-                        <Text style={styles.sectionDescription}>Para doações abaixo de 25 reais transferir diretamente para a conta ou entrar em contato.</Text>
+                        <Text style={styles.sectionDescription}>Você pode ajudar doando pelo link ou transferindo diretamente para a conta da ONG! :)</Text>
 
                         < View style={styles.actions}>
                             <TouchableOpacity style={styles.action} onPress={handleClick}>
-                                <Text style={styles.actionText}>Vakinha</Text>
+                                <Text style={styles.actionText}>Link Doação</Text>
                             </TouchableOpacity>
 
                             <TouchableOpacity style={styles.action}>

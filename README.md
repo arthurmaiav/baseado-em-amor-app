@@ -14,3 +14,21 @@
 [![Autor](https://img.shields.io/badge/autor-baldrockk-537C3A?style=flat)](https://github.com/Baldrockk)
 [![Linguagem](https://img.shields.io/badge/linguagem-javascript-537C3A?style=flat)](#)
 [![Linguagem](https://img.shields.io/badge/framework-react_native-537C3A?style=flat)](#)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+<p align="center">
+  <img src="https://github.com/arthurmaiav/baseado-em-amor-mobile/blob/cf641a4e63ff591a27953ae35158adcc1b83e41d/assets/readme-img.png?raw=true" border="0" >
+</p>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+<a href="https://play.google.com/store/apps/details?id=com.pinkyandbrain.baseadoemamor">
+  <p align="center">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"/>
+  </p>
+ </a>

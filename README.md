@@ -9,11 +9,23 @@
 
 >Por meio desse aplicativo é possível contribuir para que essas ações continuem acontecendo. Nele estão disponíveis os casos em aberto, mais informações sobre esse projeto e contatos, bem como o link para doações diretas.
 
-[![Ong](https://img.shields.io/badge/ong-baseado_em_amor-537C3A?style=flat)](http://baseadoemamor.com/)
-[![Autor](https://img.shields.io/badge/autor-arthurmaiav-537C3A?style=flat)](https://github.com/arthurmaiav)
-[![Autor](https://img.shields.io/badge/autor-baldrockk-537C3A?style=flat)](https://github.com/Baldrockk)
-[![Linguagem](https://img.shields.io/badge/linguagem-javascript-537C3A?style=flat)](#)
-[![Linguagem](https://img.shields.io/badge/framework-react_native-537C3A?style=flat)](#)
+<p align="center">
+ <a href="http://baseadoemamor.com/">
+  <img alt="ONG" src="https://img.shields.io/badge/ong-baseado_em_amor-537C3A?style=flat">
+ </a>
+   
+ <a href="https://github.com/arthurmaiav">
+  <img alt="Autor" src="https://img.shields.io/badge/autor-arthurmaiav-537C3A?style=flat">
+ </a>
+
+  <a href="https://github.com/Baldrockk">
+    <img alt="Autor" src="https://img.shields.io/badge/autor-baldrockk-537C3A?style=flat">
+  </a>
+
+  <img alt="Linguagem" src="https://img.shields.io/badge/linguagem-javascript-537C3A?style=flat">
+  
+  <img alt="Linguagem" src="https://img.shields.io/badge/framework-react_native-537C3A?style=flat">
+</p>
 
 &nbsp;
 &nbsp;

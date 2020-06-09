@@ -28,7 +28,10 @@
     },
     "android": {
       "package": "com.pinkyandbrain.baseadoemamor",
-      "versionCode": "2"
+      "versionCode": 2,
+      "permissions": [
+        ""
+      ]
     }
   }
 }
